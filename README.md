@@ -31,7 +31,7 @@
 
 ### Daily Scrum
 
-**İletişim:** Whatsapp üzerinden görüşmeler ve Discord üzerinden yapılan toplantılar ile sağlanmıştır sağlanmıştır.
+**İletişim:** Whatsapp üzerinden görüşmeler ve Discord üzerinden yapılan toplantılar ile iletişim sağlanmıştır.
 
 **Gruplar:** Tasarım grubu, yazılım grubu olarak iki adet grup oluşturulmuştur.
 
