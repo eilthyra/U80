@@ -23,7 +23,7 @@
 
 ## Hedef Kitle
 
-## SPRINT 1
+# SPRINT 1
 
 **Sprint içi puan değerlendirmesi:** 
 **Puan tamamlama mantığı:**
