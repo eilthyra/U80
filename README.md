@@ -32,3 +32,5 @@
 
 **İletişim:** Whatsapp üzerinden görüşmeler ve Discord üzerinden yapılan toplantılar ile sağlanmıştır sağlanmıştır.
 **Gruplar:** Tasarım grubu, yazılım grubu olarak iki adet grup oluşturulmuştur.
+
+(C:\Users\emirc\Downloads\WhatsApp Image 2024-07-06 at 17.54.25 (1).jpeg)
