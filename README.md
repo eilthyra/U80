@@ -35,3 +35,7 @@
 
 ![WhatsApp Image 2024-07-06 at 17 54 25 (1)](https://github.com/eilthyra/U80/assets/134155937/48d31401-640f-49e4-80ed-d7b4007a5158)
 ![WhatsApp Image 2024-07-06 at 17 54 25](https://github.com/eilthyra/U80/assets/134155937/8ca23ff7-7235-41b1-9087-6f70c0147964)
+![dc](https://github.com/eilthyra/U80/assets/134155937/29ce0d5a-269c-4129-9292-441bd852dad0)
+![dc1](https://github.com/eilthyra/U80/assets/134155937/db0018e9-05a5-45a5-9cfb-3a28d975c772)
+
+
