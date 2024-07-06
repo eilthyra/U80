@@ -11,7 +11,7 @@
 
 ## Product Backlog URL
 
-- [U80 Unity Trello Backlog Board] (https://trello.com/invite/b/1oToLZZl/ATTId76c7c45b0e13cb4989ef4faea85753f3D37A810/bootcamp-grup-80)
+- [U80 Unity Trello Backlog Board](https://trello.com/invite/b/1oToLZZl/ATTId76c7c45b0e13cb4989ef4faea85753f3D37A810/bootcamp-grup-80)
 
 ## Oyun Açıklaması
 
