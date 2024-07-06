@@ -1,4 +1,4 @@
-# U80
+# U80 Unity Takımı
 
 #### Team Members
 | Name  | Title | Socials |
@@ -8,3 +8,23 @@
 | Emircan Karabulut  | Scrum Master | [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emircan-karabulut-355313123) [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emircankrblt) [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/emircankrblt/) |
 | Emre Okçelen  | Developer  | [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emre-ok%C3%A7elen/) [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EmreOkcelen) [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/emreokcelen/?hl=tr) |
 | Esin Usta  | Developer  | [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/esin-usta-09a830239/) [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EsinUsta) [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/im.esin/) ||
+
+## Product Backlog URL
+
+- [U80 Unity Trello Backlog Board] (https://trello.com/b/1oToLZZl/bootcamp-grup-80)
+
+## Oyun Açıklaması
+
+
+
+## Oyun Özellikleri
+
+- 3D
+
+## Hedef Kitle
+
+## SPRINT 1
+
+### Daily Scrum
+
+**İletişim:** Whatsapp üzerinden görüşmeler ve Discord üzerinden yapılan toplantılar ile sağlanmıştır sağlanmıştır.
