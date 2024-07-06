@@ -25,6 +25,10 @@
 
 ## SPRINT 1
 
+**Sprint içi puan değerlendirmesi:** 
+**Puan tamamlama mantığı:**
+
 ### Daily Scrum
 
 **İletişim:** Whatsapp üzerinden görüşmeler ve Discord üzerinden yapılan toplantılar ile sağlanmıştır sağlanmıştır.
+**Gruplar:** Tasarım grubu, yazılım grubu olarak iki adet grup oluşturulmuştur.
