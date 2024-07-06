@@ -34,4 +34,4 @@
 **Gruplar:** Tasarım grubu, yazılım grubu olarak iki adet grup oluşturulmuştur.
 
 ![WhatsApp Image 2024-07-06 at 17 54 25 (1)](https://github.com/eilthyra/U80/assets/134155937/48d31401-640f-49e4-80ed-d7b4007a5158)
-
+![Uploading WhatsApp Image 2024-07-06 at 17.54.25 (1).jpeg…]()
