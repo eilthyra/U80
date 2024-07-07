@@ -31,9 +31,9 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 
 # SPRINT 1
 
-**Sprint içi puan değerlendirmesi:** 
+- Sprint içi puan değerlendirmesi 12 olarak belirlenmiştir. 
 
-**Puan tamamlama mantığı:**
+- **Puan tamamlama mantığı:**  Proje boyunca tamamlanması gereken backlog puanı 44'tür. İlk Sprint için bitirilmesi istenilen puan sayısı 12 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 
 ### Daily Scrum
 
