@@ -69,7 +69,13 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 - **Oyun Mekanikleri ve Kodlama:**
 
   **Sorumlu Kişiler:** Emircan Karabulut, Emre Okçelen, Emir Yorgun
+  
   **Hedef:** İkinci sprintin sonuna kadar oyuna mekanikler eklemek ve kodlarını yazmak.
-- İkinci sprint sonuna kadar karakterimizin tasarlanmasına ve hareket kodlarının yazılmasına karar verilmiştir.Burada görev alacak kişiler: Elif Göktürk, Esin Usta
+- **Karakter Tasarımı ve Hareket Kodları:**
+
+  **Sorumlu Kişiler:** Elif Göktürk, Esin Usta
+  
+  **Hedef:** İkinci sprintin sonuna kadar karakterin tasarımını yapmak ve hareket kodlarını yazmak.
+
 - İkinci sprint sonuna kadar oyunun geçeceği mekanların hazırlanmasına, karakter ve NPC'lerin tasarlanmasına karar verilmiştir. Burada görev alacak kişiler: Elif Göktürk, Esin Usta
 - Ekibin daha sık toplantı yapmasına karar verilmiştir.
