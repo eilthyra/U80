@@ -15,7 +15,7 @@
 
 ## Oyun Açıklaması
 
-Kimsesiz olan ana karakterimiz gözlerini ara sokaklarda açar etrafı yüksek binalar
+Kimsesiz olan ana karakterimiz gözlerini ara sokaklarda açar etrafı yüksek binalar ve 
 gecekondular ile çevirilidir. Etrafta loot için belli eşyalar vardır. Bu lootlar karakterimizin hayatta kalmasına ve
 kendisini geliştirmesine yardımcı olacaktır. Aynı zamanda etrafta isterse etkileşime
 geçebileceği diğer sokak sakinleri de mevcuttur. Oyun ilerledikçe ve karakterimiz gelişip
