@@ -53,6 +53,15 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 ![image](https://github.com/eilthyra/U80/assets/134155937/0716cc53-8e60-4492-894a-0a9189a0926d)
 
 
-**Sprint Review:**
+**Sprint Review:** 
+
+- Karakter ve NPC çeşitlerine karar verilmişitir.
+- Yapay zeka eklentilerinin nerelerde kullanılacağına karar verilmiştir.
+- Oyunda kullanılacak hazır assetler belirlenmiştir.
+
+- **Sprint Review Katılımcıları:**  
+Emircan Karabulut, Elif Göktürk, Esin Usta, Emre Okçelen, Emir Yorgun
 
 **Sprint Retrospective:**
+
+- 
