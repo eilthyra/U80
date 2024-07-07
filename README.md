@@ -64,6 +64,7 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 **Sprint Retrospective:**
 
 - **Hikaye Genişletme, Piyasa Araştırması ve Marketing Stratejileri:**
+  
   **Hedef:** İkinci sprintin sonuna kadar hikayeyi genişletmek, piyasa araştırması yapmak ve marketing stratejileri konusunda araştırma yapmak. 
 - İkinci sprint sonuna kadar oyuna mekanikleri ekleyerek kodlarının yazılmasına karar verilmiştir. Burada görev alacak kişiler: Emircan Karabulut, Emre Okçelen, Emir Yorgun
 - İkinci sprint sonuna kadar karakterimizin tasarlanmasına ve hareket kodlarının yazılmasına karar verilmiştir.Burada görev alacak kişiler: Elif Göktürk, Esin Usta
