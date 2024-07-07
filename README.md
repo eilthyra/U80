@@ -66,7 +66,10 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 - **Hikaye Genişletme, Piyasa Araştırması ve Marketing Stratejileri:**
   
   **Hedef:** İkinci sprintin sonuna kadar hikayeyi genişletmek, piyasa araştırması yapmak ve marketing stratejileri konusunda araştırma yapmak. 
-- İkinci sprint sonuna kadar oyuna mekanikleri ekleyerek kodlarının yazılmasına karar verilmiştir. Burada görev alacak kişiler: Emircan Karabulut, Emre Okçelen, Emir Yorgun
+- **Oyun Mekanikleri ve Kodlama:**
+
+  **Sorumlu Kişiler:** Emircan Karabulut, Emre Okçelen, Emir Yorgun
+  **Hedef:** İkinci sprintin sonuna kadar oyuna mekanikler eklemek ve kodlarını yazmak.
 - İkinci sprint sonuna kadar karakterimizin tasarlanmasına ve hareket kodlarının yazılmasına karar verilmiştir.Burada görev alacak kişiler: Elif Göktürk, Esin Usta
 - İkinci sprint sonuna kadar oyunun geçeceği mekanların hazırlanmasına, karakter ve NPC'lerin tasarlanmasına karar verilmiştir. Burada görev alacak kişiler: Elif Göktürk, Esin Usta
 - Ekibin daha sık toplantı yapmasına karar verilmiştir.
