@@ -76,6 +76,11 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
   **Sorumlu Kişiler:** Elif Göktürk, Esin Usta
   
   **Hedef:** İkinci sprintin sonuna kadar karakterin tasarımını yapmak ve hareket kodlarını yazmak.
+- **Oyun Mekanlarının ve NPC'lerin Hazırlanması:**
 
-- İkinci sprint sonuna kadar oyunun geçeceği mekanların hazırlanmasına, karakter ve NPC'lerin tasarlanmasına karar verilmiştir. Burada görev alacak kişiler: Elif Göktürk, Esin Usta
-- Ekibin daha sık toplantı yapmasına karar verilmiştir.
+  **Sorumlu Kişiler:** Elif Göktürk, Esin Usta
+  
+  **Hedef:** İkinci sprintin sonuna kadar oyunun geçeceği mekanları ve NPC'leri tasarlamak.
+- **İletişim ve Koordinasyon:**
+
+  **Toplantılar:** Ekibin daha sık toplantı yapmasına karar verilmiştir.
