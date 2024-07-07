@@ -26,8 +26,15 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 ## Oyun Özellikleri
 
 - 3D
+- Açık Dünya
+- Hayatta Kalma
+- Karakter Seçme Ekranı
 
 ## Hedef Kitle
+
+- Karakter Gelişimi Odaklı Oyun Severler
+- Sosyal Dinamiklerle İlgilenen Oyuncular
+- Keşfedilebilir Şehir Ortamlarını Seven Oyuncular
 
 # SPRINT 1
 
