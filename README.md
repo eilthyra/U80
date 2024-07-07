@@ -35,6 +35,8 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 - Karakter Gelişimi Odaklı Oyun Severler
 - Sosyal Dinamiklerle İlgilenen Oyuncular
 - Keşfedilebilir Şehir Ortamlarını Seven Oyuncular
+- +16
+- PC Oyuncuları
 
 # SPRINT 1
 
