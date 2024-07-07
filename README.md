@@ -15,7 +15,13 @@
 
 ## Oyun Açıklaması
 
-
+Kimsesiz olan ana karakterimiz gözlerini ara sokaklarda açar etrafı yüksek binalar
+gecekondular ile çevirilidir. Etrafta loot için belli eşyalar vardır. Bu lootlar karakterimizin hayatta kalmasına ve
+kendisini geliştirmesine yardımcı olacaktır. Aynı zamanda etrafta isterse etkileşime
+geçebileceği diğer sokak sakinleri de mevcuttur. Oyun ilerledikçe ve karakterimiz gelişip
+başka npcler ile de iletişime geçtikçe statü ve ün kazanır. Bu sayede şehrin farklı yerlerini
+keşfedebilir. Bu yerler nezih mahalleler, parklar, alışveriş yerleri, deniz kenarı gibi
+konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da yelken açar.
 
 ## Oyun Özellikleri
 
