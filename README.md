@@ -93,3 +93,14 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 - **İletişim ve Koordinasyon:**
 
   **Toplantılar:** Ekibin daha sık toplantı yapmasına karar verilmiştir.
+
+
+# SPRINT 1
+
+- Sprint içi puan değerlendirmesi 15 olarak belirlenmiştir.
+
+  ### Daily Scrum
+
+  Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord üzerinden yapılan toplantılarda takım üyelerimizin yaptığı ilerlemeler belirlenmiştir.
+
+  
