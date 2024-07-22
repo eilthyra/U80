@@ -154,4 +154,5 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 - **UI Ekranının Tasarımı**
 
   **Tamamlanan:** UI Ekranının tasarımı için araştırma yapılmıştır.
+  
   **Hedef:** Tasarımın nasıl olacağına ilişkin kararlar alınmıştır.
