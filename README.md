@@ -95,7 +95,7 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
   **Toplantılar:** Ekibin daha sık toplantı yapmasına karar verilmiştir.
 
 
-# SPRINT 1
+# SPRINT 2
 
 - Sprint içi puan değerlendirmesi 15 olarak belirlenmiştir.
 
@@ -103,4 +103,55 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 
   Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord üzerinden yapılan toplantılarda takım üyelerimizin yaptığı ilerlemeler belirlenmiştir.
 
+- **Sprint 2 Board Ekran Görüntüsü:**
+
+  ![trello](https://github.com/user-attachments/assets/b3187c46-e3c1-4f13-b233-7d3b470c7c08)
+
+- **Ürün Durumuna İlişkin Görseller:**
+
+  ![RoadArhitectileYolYapimi](https://github.com/user-attachments/assets/f6e41c1f-576b-4b5d-aef4-fe498e73c55a)
+  ![Fabrika2](https://github.com/user-attachments/assets/f4688278-9b0c-49fe-8ca2-010607f793ea)
+  ![Fabrika](https://github.com/user-attachments/assets/ff84ea56-d52d-46b4-959d-a2c75d70204a)
+  ![Deniz_Yapimi](https://github.com/user-attachments/assets/11140111-15e6-4d99-acf2-fb37f17433f7)
+
+- **Toplantı Görselleri:**
+
+ ![1](https://github.com/user-attachments/assets/c0837f2b-83e7-401c-8409-c8ec2d41def2)
+ ![2](https://github.com/user-attachments/assets/27a9f287-e2d8-49e2-b234-850ef6ebbfc2)
+ ![w1](https://github.com/user-attachments/assets/5c0704d8-8c82-4beb-8434-ed9bd504408c)
+ ![w2](https://github.com/user-attachments/assets/d2daa291-552b-46e0-afc3-bb915e7ba28c)
+ ![w3](https://github.com/user-attachments/assets/bd414044-dde3-49ea-8b68-b852a5ce5b7f)
+ ![w4](https://github.com/user-attachments/assets/9e4fddb2-a615-40b7-840f-39dbd6510b9e)
+ ![dc1](https://github.com/user-attachments/assets/1bab12fb-d07a-442c-99d7-9e9afe04ecad)
+ ![dc2](https://github.com/user-attachments/assets/421dc415-986a-4b9d-ab7b-cf4514dc2427)
+ ![dc3](https://github.com/user-attachments/assets/4f2f7a8a-4506-42d3-b808-b586049a67bf)
+ ![dc4](https://github.com/user-attachments/assets/32cf2483-eb22-434c-b859-61d26aedf4fd)
+ ![dc6](https://github.com/user-attachments/assets/70dd479c-3d36-4ad2-8014-a12714a68ae6)
+
+**Sprint Review:** 
+
+- Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. Yapay zeka entegrasyonu ve sık sık toplantı yapma kararları dışında amaçlara ulaşılmıştır.
+
+- **Sprint Review Katılımcıları:**  Emircan Karabulut, Elif Göktürk, Esin Usta, Emre Okçelen, Emir Yorgun
+
+**Sprint Retrospective:**
+
+- **Yapay Zeka Entegrasyonu ve Model Eğitimi**
   
+  **Hedef:** Yapay zeka entegrasyonu ve model eğitimi diğer sprinte kalmıştır.
+- **İletişim ve Koordinasyon:**
+
+  **Toplantılar:** Ekibin daha sık toplantı yapmasına vurgu yapılmıştır.
+- **UI Ekranı Tasarımı**
+
+  **Hedef:** UI ekranı için araştırmalar yapılmıştır. 3.sprint sonuna kadar tasarımı tamamlanacaktır.
+- **Karakter Hareket Kodları**
+
+  **Tamamlanan:** 
+  - Karakter için hareket komutları yazıldı.
+  - Zıplama ve stamina kullanarak hızlı koşma oluşturuldu.
+  - Ground check parametreleri ayarlandı.
+- **UI Ekranının Tasarımı**
+
+  **Tamamlanan:** UI Ekranının tasarımı için araştırma yapılmıştır.
+  **Hedef:** Tasarımın nasıl olacağına ilişkin kararlar alınmıştır.
