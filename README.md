@@ -99,6 +99,8 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
 # SPRINT 2
 
 - Sprint içi puan değerlendirmesi 15 olarak belirlenmiştir.
+- **Puan tamamlama mantığı:**  Proje boyunca tamamlanması gereken backlog puanı 44'tür. İkinci Sprint için bitirilmesi istenilen puan sayısı 15 olarak belirlenmiştir. Ancak 11 puana ulaşılmıştır. Yapılması planlanan 4 puanlık iş diğer sprinte aktarılmıştır.
+
 
   ### Daily Scrum
 
