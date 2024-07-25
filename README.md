@@ -1,6 +1,4 @@
-
 <img src="https://github.com/user-attachments/assets/8181672c-dc25-4d21-8116-9dd0bd4d6001" width="400">
-
 
 ## U80 Unity Takımı
 
