@@ -1,0 +1,1723 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.36f1 (95a4219250e5) revision 9806881'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/emiry/Documents/GitHub/U80
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+57102
+Successfully changed project path to: C:/Users/emiry/Documents/GitHub/U80
+C:/Users/emiry/Documents/GitHub/U80
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25720] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 4224578232 [EditorId] 4224578232 [Version] 1048832 [Id] WindowsEditor(7,Hootbu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25720] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 4224578232 [EditorId] 4224578232 [Version] 1048832 [Id] WindowsEditor(7,Hootbu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 10.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.36f1 (95a4219250e5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emiry/Documents/GitHub/U80/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010012 seconds.
+- Loaded All Assemblies, in  0.388 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 716ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.011 seconds
+Domain Reload Profiling: 1843ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (2.0 MB). Loaded Objects now: 3977.
+Memory consumption went from 200.8 MB to 198.8 MB.
+Total: 4.704700 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.148100 ms MarkObjects: 3.283300 ms  DeleteObjects: 0.946400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156322.292978 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-244.dae
+  artifactKey: Guid(5638cb16904d243e5a71db538c1a1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-244.dae using Guid(5638cb16904d243e5a71db538c1a1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94b4b7d48def4378b9b8740d4e315732') in 0.194848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-199.dae
+  artifactKey: Guid(893e4e4ee26a34e35a7a4ea6d43e93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-199.dae using Guid(893e4e4ee26a34e35a7a4ea6d43e93a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '376b41064e2c5e14e667488b94e990ac') in 0.043613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-194.dae
+  artifactKey: Guid(3916d8217a31948e88a05370888d38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-194.dae using Guid(3916d8217a31948e88a05370888d38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3912a04941909c9c8fe579f37e6f149d') in 0.042370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-195.dae
+  artifactKey: Guid(395682e89a3ea480280620669f285316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-195.dae using Guid(395682e89a3ea480280620669f285316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb928ab9a93bbf7545f3567bca960cd6') in 0.040469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-314.dae
+  artifactKey: Guid(8aa6170c9e6f84358adad1bf4d77adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-314.dae using Guid(8aa6170c9e6f84358adad1bf4d77adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e555ae23acf3c53432cde53461979201') in 0.036415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-307.dae
+  artifactKey: Guid(7fbb5488bfda24b04800a7e8ae367fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-307.dae using Guid(7fbb5488bfda24b04800a7e8ae367fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9779162c8b2761182a83b9e81217d809') in 0.036672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-253.dae
+  artifactKey: Guid(b027c981191584a189e135290bedb10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-253.dae using Guid(b027c981191584a189e135290bedb10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a57152513c72c782ce7c9ea59527c52') in 0.038385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-192.dae
+  artifactKey: Guid(4a16f2e2776c043c6ac078b38b660335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-192.dae using Guid(4a16f2e2776c043c6ac078b38b660335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83f2c032788e4ac1b705be504e779eaa') in 0.037110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae
+  artifactKey: Guid(5e3c92db286774f1d80641c4f69b7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-255.dae using Guid(5e3c92db286774f1d80641c4f69b7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c137096f67e0c50be90a53957ec83b35') in 0.039060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-211.dae
+  artifactKey: Guid(a85d2ce62d441400ba56e4a4004ea8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-211.dae using Guid(a85d2ce62d441400ba56e4a4004ea8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f637c1b8f22a76889544d34e7b1ab81') in 0.034078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-364.dae
+  artifactKey: Guid(448bb4ea46e554cf5bfd816ce76645c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-364.dae using Guid(448bb4ea46e554cf5bfd816ce76645c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea34a4401fe869fca7bd1553ab36ed7a') in 0.035562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-377.dae
+  artifactKey: Guid(9e19b8e8c9e444cc69ad8edee3df6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-377.dae using Guid(9e19b8e8c9e444cc69ad8edee3df6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dea45fee649c4e4c3b8f26d295c21981') in 0.034449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae
+  artifactKey: Guid(e759a71bd35514bee973cb708a558ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-198.dae using Guid(e759a71bd35514bee973cb708a558ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4922e11518b35fdafdf23be7533ccace') in 0.035364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae
+  artifactKey: Guid(91839e26c84e044d3b4964e5dde044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-382.dae using Guid(91839e26c84e044d3b4964e5dde044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5d4c02eaf9d64a833a79507c51ecb42') in 0.034734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-343.dae
+  artifactKey: Guid(2ad059cd8e0e64b97adc24bfc39fb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-343.dae using Guid(2ad059cd8e0e64b97adc24bfc39fb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd5e20888b270c3bd5775939170cc30f') in 0.037643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-329.dae
+  artifactKey: Guid(31cad467a515c4c3a9ca84bb0d1d8552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-329.dae using Guid(31cad467a515c4c3a9ca84bb0d1d8552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71c7de12b2bb8e99b826d8e8acf60a7f') in 0.048462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-385.dae
+  artifactKey: Guid(f70aa370a16dd46fda7c7c9a1a5f5b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-385.dae using Guid(f70aa370a16dd46fda7c7c9a1a5f5b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18511d556996fc0a6222d3954a51010d') in 0.038112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-218.dae
+  artifactKey: Guid(c7d8ce2c9bc694e16aa279d787511f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-218.dae using Guid(c7d8ce2c9bc694e16aa279d787511f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '932104fabad530584c6d037f2a01332b') in 0.067298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-319.dae
+  artifactKey: Guid(44497b3f9ed964b5fb502687b643326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-319.dae using Guid(44497b3f9ed964b5fb502687b643326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a11d734ffb6c44b8a6811c2134203c2') in 0.037869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-177.dae
+  artifactKey: Guid(7de043b29cd224a9f989eb957946d9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-177.dae using Guid(7de043b29cd224a9f989eb957946d9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae4731bed01e01c4fb00350dfa32e7c2') in 0.037769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-201.dae
+  artifactKey: Guid(29a25c0e4ffb14e4fbedacbe0bf39133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-201.dae using Guid(29a25c0e4ffb14e4fbedacbe0bf39133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfe71fac45317090cfc47261ac21b3c7') in 0.037850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-366.dae
+  artifactKey: Guid(9677cbb1d0fc44940a3ba3a6ef63ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-366.dae using Guid(9677cbb1d0fc44940a3ba3a6ef63ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '884dd3f55cc00cc4313b612847e36752') in 0.034768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-266.dae
+  artifactKey: Guid(7f805960ed7a249c2bb052707ea39d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-266.dae using Guid(7f805960ed7a249c2bb052707ea39d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c654d0af2cd2f929335d297ed7eb6d1') in 0.043842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-349.dae
+  artifactKey: Guid(c8adba7569538463e9be1055fdce112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-349.dae using Guid(c8adba7569538463e9be1055fdce112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a25fc40c372178ffd8d37fccb6326bf') in 0.037881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-342.dae
+  artifactKey: Guid(b01c75a6678054f94b74929bd93be31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-342.dae using Guid(b01c75a6678054f94b74929bd93be31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '013e24f8331de08d247a0599c0bcf695') in 0.036461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-380.dae
+  artifactKey: Guid(d8c20bbcb4efb4c27b3f542f790efa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-380.dae using Guid(d8c20bbcb4efb4c27b3f542f790efa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8477ca57ce6ae068907e280dd50c7ba3') in 0.037752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-248.dae
+  artifactKey: Guid(68f2255cda64b4792a41a51bc53ad360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-248.dae using Guid(68f2255cda64b4792a41a51bc53ad360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78f423401486247cc64ce3d81a7e8e06') in 0.037205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-359.dae
+  artifactKey: Guid(4388ecc3e7d4f48fa8787abe3f44d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-359.dae using Guid(4388ecc3e7d4f48fa8787abe3f44d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6abdc7a26fc5936c8020fa69a9955591') in 0.035160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-350.dae
+  artifactKey: Guid(17cb11e7f10014ca187a004577f97ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-350.dae using Guid(17cb11e7f10014ca187a004577f97ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '150d6712cbe6e41628bc26a21e30eb8f') in 0.037467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-361.dae
+  artifactKey: Guid(22eb817172399489c8dd777a59f40e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-361.dae using Guid(22eb817172399489c8dd777a59f40e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e976837b6d148a6352c3d001fa4c63f') in 0.039975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-306.dae
+  artifactKey: Guid(d807260a84d2f42ef9c178efb649dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-306.dae using Guid(d807260a84d2f42ef9c178efb649dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57620f118a4b7544e763ca1ff37a9ee3') in 0.039443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-311.dae
+  artifactKey: Guid(016cb9efa1c134045aa206aaab1cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-311.dae using Guid(016cb9efa1c134045aa206aaab1cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c70d975e6bf4d0e3e224efdd4faa7f2') in 0.039930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-174.dae
+  artifactKey: Guid(da829ac639b214e55bed49c73b544a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-174.dae using Guid(da829ac639b214e55bed49c73b544a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e9e434dec1eb539354d31206ff31be9') in 0.035783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-212.dae
+  artifactKey: Guid(fa539e78d47fb45c6a0dd63c32e2a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-212.dae using Guid(fa539e78d47fb45c6a0dd63c32e2a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c976d2874cdf3df3d18f5652e9fffffb') in 0.035997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-203.dae
+  artifactKey: Guid(8750f4eee924041c68af7759e2ab10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-203.dae using Guid(8750f4eee924041c68af7759e2ab10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '387f94565a558af84c86775672bd945a') in 0.034881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-331.dae
+  artifactKey: Guid(c0b79b1bbec2046b986c47be4401490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-331.dae using Guid(c0b79b1bbec2046b986c47be4401490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '166f845a940957b7df0442c71d85ddc8') in 0.033015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-241.dae
+  artifactKey: Guid(9c3dd2a364e794c25a410ab802807bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-241.dae using Guid(9c3dd2a364e794c25a410ab802807bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bc5d6fe6534b704df36f1a962aff39a') in 0.038292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-322.dae
+  artifactKey: Guid(4c58cc5d7894c4caea3f553ac77ea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-322.dae using Guid(4c58cc5d7894c4caea3f553ac77ea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cf885a26cfa20c5610aa675965487591') in 0.025437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-272.dae
+  artifactKey: Guid(53d1d096b4bed4f409f9ab822db65bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-272.dae using Guid(53d1d096b4bed4f409f9ab822db65bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '597fcc06f5cbb615feaf301ea01fddfd') in 0.037555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-370.dae
+  artifactKey: Guid(5239acac5fe8448c9a51026446b4dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-370.dae using Guid(5239acac5fe8448c9a51026446b4dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43f538339a443cae4ac3dc86e22b16ec') in 0.037143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-276.dae
+  artifactKey: Guid(63f0f5960c13f42ea885ec25b1d48624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-276.dae using Guid(63f0f5960c13f42ea885ec25b1d48624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bdc3071e82fee34a30fe76e301c6dd60') in 0.037945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-224.dae
+  artifactKey: Guid(b44fb518a153047ddbfc399690229d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-224.dae using Guid(b44fb518a153047ddbfc399690229d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8481cd78627b50d027a90f7cc82a765d') in 0.035796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-358.dae
+  artifactKey: Guid(15849bac131114b6485b17a43dd58d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-358.dae using Guid(15849bac131114b6485b17a43dd58d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2779e70aaea0243a5b5df7f462638ee9') in 0.036907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-219.dae
+  artifactKey: Guid(21c81aaf7960543a0a185678cc8be8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-219.dae using Guid(21c81aaf7960543a0a185678cc8be8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d57ebd13a6e9702464216a356e08a55') in 0.039893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-316.dae
+  artifactKey: Guid(0a442ea1d3f664967a3082d623b661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-316.dae using Guid(0a442ea1d3f664967a3082d623b661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0f3f852d0a676d1671ed4a33d06ec3aa') in 0.039270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-384.dae
+  artifactKey: Guid(08a629cf0413c4de48461ffc95792c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-384.dae using Guid(08a629cf0413c4de48461ffc95792c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd323d5f810d9bdc5a5931109948e3d73') in 0.031430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 43.011630 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/facade_stone_2_specularGlossiness_1024.png
+  artifactKey: Guid(ed8aa5dbf60ac4ff297c421da778cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/facade_stone_2_specularGlossiness_1024.png using Guid(ed8aa5dbf60ac4ff297c421da778cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5bf7622346d7b2bbb4edbffda1b09dec') in 0.032881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Textures/MadisonAvenue.png
+  artifactKey: Guid(465dc68e13b834827a36b25f51c47bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Textures/MadisonAvenue.png using Guid(465dc68e13b834827a36b25f51c47bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be30a88b4de16662da47eb129bc52485') in 0.034679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.683606 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-402.dae
+  artifactKey: Guid(32dc773c7caa84e399145ac79bb048f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-402.dae using Guid(32dc773c7caa84e399145ac79bb048f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb915b0b51aa34941f5b7bb015795c4b') in 0.138251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-438.dae
+  artifactKey: Guid(e01890f626e1e4a6c9f88d4285a42321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-438.dae using Guid(e01890f626e1e4a6c9f88d4285a42321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4da5570c6e7ba32cef5506cc9d374cdf') in 0.033307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae
+  artifactKey: Guid(1a4f0a2f8bab84260989f49eef720940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-414.dae using Guid(1a4f0a2f8bab84260989f49eef720940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b9f68ffb96266f0b6a1fa7718d13d72') in 0.032456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-419.dae
+  artifactKey: Guid(c0fd97abe5d71411b870ae0b0c40076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-419.dae using Guid(c0fd97abe5d71411b870ae0b0c40076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '519c45d296895c54653044d1d53af436') in 0.032692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-439.dae
+  artifactKey: Guid(06480b4b3242a4c03a819660ef64a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-439.dae using Guid(06480b4b3242a4c03a819660ef64a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '173d97b1eecfd5eb7a6777187b3b595e') in 0.060522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-16.dae
+  artifactKey: Guid(2feb98b509ebd4e15bcd2944a9b731ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-16.dae using Guid(2feb98b509ebd4e15bcd2944a9b731ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '749201d7a744b1e1ebd847a990aaf5e9') in 0.035859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-32.dae
+  artifactKey: Guid(57cd024149d4c4fcc910c172c4a5a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-32.dae using Guid(57cd024149d4c4fcc910c172c4a5a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f03040457bf668401d97c2d51eec6b1d') in 0.060425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-132.dae
+  artifactKey: Guid(5940e208580d84285949ffaf75e63041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-132.dae using Guid(5940e208580d84285949ffaf75e63041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6cb959fc7afc63d3b72f36aa85c2360a') in 0.058836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-425.dae
+  artifactKey: Guid(95c2648efb7b44964b1bf1296a61ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-425.dae using Guid(95c2648efb7b44964b1bf1296a61ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41a3fbe94e33414ecb2d0cb81c22aea9') in 0.039144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-652.dae
+  artifactKey: Guid(392667fa636674f3f9e6840f068552e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-652.dae using Guid(392667fa636674f3f9e6840f068552e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6d7f3ff7ae774cbcb4d0e26ccd17bee3') in 0.061684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-631.dae
+  artifactKey: Guid(c97960903dfa14443af1bfdf6aa6612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-631.dae using Guid(c97960903dfa14443af1bfdf6aa6612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cdc7f98e83ad70155559f9901ac6f53') in 0.060087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-585.dae
+  artifactKey: Guid(4439b5041ac934045996951ae4cfa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-585.dae using Guid(4439b5041ac934045996951ae4cfa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e872f513a70bd71c07ade112ddfaa49b') in 0.037048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-633.dae
+  artifactKey: Guid(856d65247d12f41e1af82a2b394de889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-633.dae using Guid(856d65247d12f41e1af82a2b394de889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd13d3cc9ee2caae764895ac36fcbeff5') in 0.088309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-605.dae
+  artifactKey: Guid(12744238bcda04fe4aad505c4971a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-605.dae using Guid(12744238bcda04fe4aad505c4971a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78059a5ef83ed96572e6266cead22f6e') in 0.062482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-600.dae
+  artifactKey: Guid(edbbe1f2cabf44cf2bc6c5bba7f3184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-600.dae using Guid(edbbe1f2cabf44cf2bc6c5bba7f3184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b57737c05ea376517ca04d5d3b242a1f') in 0.060134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-595.dae
+  artifactKey: Guid(d6e1f243d51cd485e8277303b2ea0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-595.dae using Guid(d6e1f243d51cd485e8277303b2ea0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18f7641d9d8d33c4c20c3d47c3cf1a78') in 0.039899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-133.dae
+  artifactKey: Guid(adf4eb0db8c8e4508b16ba5703a5d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-133.dae using Guid(adf4eb0db8c8e4508b16ba5703a5d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f23e1342a4bf1857506c8251e13a4cf7') in 0.077980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-648.dae
+  artifactKey: Guid(aa81620a99d3541f89f20eb4c1ec9d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-648.dae using Guid(aa81620a99d3541f89f20eb4c1ec9d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2924f92fdaf2414643e679fe4725a2f4') in 0.035816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-408.dae
+  artifactKey: Guid(b5776a35042854cc39682cd9011b738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-408.dae using Guid(b5776a35042854cc39682cd9011b738e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05da8b32407f462b4bb8678b831bf523') in 0.051577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-35.dae
+  artifactKey: Guid(cd4d7745730e34a6b9fe092b096f4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-35.dae using Guid(cd4d7745730e34a6b9fe092b096f4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01d96c8acd854c5111ea22402e126068') in 0.040232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae
+  artifactKey: Guid(27addba87c2094230b0280638289fb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-69.dae using Guid(27addba87c2094230b0280638289fb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd87f14180b31525091c39e220d85cc48') in 0.038453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-139.dae
+  artifactKey: Guid(3b9c40cac22354bcea9472a1bd8a0fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-139.dae using Guid(3b9c40cac22354bcea9472a1bd8a0fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a750a101434c01d221b73108b1a5e3df') in 0.037717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-606.dae
+  artifactKey: Guid(e3fdf5ed82f164eeaa632caac9e29003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-606.dae using Guid(e3fdf5ed82f164eeaa632caac9e29003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68cfa90d5503d067100fb15725263db2') in 0.038043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-20.dae
+  artifactKey: Guid(de918ede44f4b44b592ce57fe9f4dca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-20.dae using Guid(de918ede44f4b44b592ce57fe9f4dca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc9507d9f15c92f3321cf844213ea73c') in 0.037975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-434.dae
+  artifactKey: Guid(899ba9f752ff240bda1f3f359ca0aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-434.dae using Guid(899ba9f752ff240bda1f3f359ca0aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bdee0b5152427db5d55c908a22b2dbe2') in 0.038733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-138.dae
+  artifactKey: Guid(f3d672ab3e30f4fb5ba7e8fcbd550544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-138.dae using Guid(f3d672ab3e30f4fb5ba7e8fcbd550544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27b943c784294c2eefc5c73ec0d3e542') in 0.056632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-643.dae
+  artifactKey: Guid(4dc6a7229c9de4070943df577c31eb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-643.dae using Guid(4dc6a7229c9de4070943df577c31eb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c68bc5c671ecd8ec701b53f71fa6b967') in 0.060455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-601.dae
+  artifactKey: Guid(6ce7e0db7fee74253aa1347bc23d9eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-601.dae using Guid(6ce7e0db7fee74253aa1347bc23d9eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13be7004255a9502deaf99f446c2dccb') in 0.037846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-64.dae
+  artifactKey: Guid(9ed0a32c4f30b4d0ba4c4eddbe56a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-64.dae using Guid(9ed0a32c4f30b4d0ba4c4eddbe56a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66b1c6798013cb052aee4de0aff62058') in 0.041922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-142.dae
+  artifactKey: Guid(5cb6d4bf4e5e04b5d9c604cf95d96dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-142.dae using Guid(5cb6d4bf4e5e04b5d9c604cf95d96dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30ca697c7b2c3c137dd20391e9706dd6') in 0.038865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-74.dae
+  artifactKey: Guid(ec9e5bfda1ebf497e8227466eb0bb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-74.dae using Guid(ec9e5bfda1ebf497e8227466eb0bb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54cc9713c7ab22c3a80ea52cdc2a9531') in 0.036645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-52.dae
+  artifactKey: Guid(0d1c685c69c2440ea9f825073d8bccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-52.dae using Guid(0d1c685c69c2440ea9f825073d8bccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '261a79d8f35b54f3f578838b13c9c391') in 0.037325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-427.dae
+  artifactKey: Guid(8647d926c73224ebebb22ce47f0b2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-427.dae using Guid(8647d926c73224ebebb22ce47f0b2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15338cd8e20d2574bce73259df6c9575') in 0.038979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-634.dae
+  artifactKey: Guid(2a050cfdbc675462f9305b6387e72590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-634.dae using Guid(2a050cfdbc675462f9305b6387e72590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '039365fd24a9c1b9bf59338ba66fbe1f') in 0.036722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-12.dae
+  artifactKey: Guid(99949c091bdc44099ad3eee46eb0b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-12.dae using Guid(99949c091bdc44099ad3eee46eb0b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13e9e605b23ae494d61a9263c84cac3d') in 0.037959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-411.dae
+  artifactKey: Guid(2b15a39be6e3e47a581ba4d85e9c74b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-411.dae using Guid(2b15a39be6e3e47a581ba4d85e9c74b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b5d4c5e91aa491ddf3f3e2445ee6f44') in 0.038634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-1.dae
+  artifactKey: Guid(588e9f85f95534e0eb897d6f813316b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-1.dae using Guid(588e9f85f95534e0eb897d6f813316b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b2dc03f1cc43cd9bbda82c68ff53893') in 0.043579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-440.dae
+  artifactKey: Guid(eb680f6014108474dbc484d2bd72fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-440.dae using Guid(eb680f6014108474dbc484d2bd72fa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9f0773d643b2b186c78e8a193b6be82c') in 0.037773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-42.dae
+  artifactKey: Guid(b531c6716cc8548b9a1bd6c2540b4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-42.dae using Guid(b531c6716cc8548b9a1bd6c2540b4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bdae183c23e7b1af4b536e143569c5d') in 0.037443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae
+  artifactKey: Guid(52fdd75c433444f27995bb5957a30220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-48.dae using Guid(52fdd75c433444f27995bb5957a30220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93cc5319e2abc12e134a439f02342137') in 0.036749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-415.dae
+  artifactKey: Guid(bd10d9bf8b0b84b2c93b53a5409cdee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-415.dae using Guid(bd10d9bf8b0b84b2c93b53a5409cdee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4bcb3bdfa6a174e135f115794219444') in 0.040942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-6.dae
+  artifactKey: Guid(7d69c605450094afb90c43516902b2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-6.dae using Guid(7d69c605450094afb90c43516902b2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c538396f647496cc319ac5e17cd4afce') in 0.040655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-599.dae
+  artifactKey: Guid(af3df2445efb6496c95c1be265005f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-599.dae using Guid(af3df2445efb6496c95c1be265005f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb779bf57264df6ab3ffba16e225aecc') in 0.038030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-611.dae
+  artifactKey: Guid(058968192d89d4862a1068ffc4eedb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-611.dae using Guid(058968192d89d4862a1068ffc4eedb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '554a3070e9b0a241a01b03687fdc0ac7') in 0.068199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-67.dae
+  artifactKey: Guid(4f2a37da67ea84753bca90b00bf01ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-67.dae using Guid(4f2a37da67ea84753bca90b00bf01ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91e5f33fc7a23ab13441975ced8e8063') in 0.039205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-580.dae
+  artifactKey: Guid(b5b4fab14eb72406aae06047e82e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-580.dae using Guid(b5b4fab14eb72406aae06047e82e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a54165de67b0823d1d0fd92afac6d76') in 0.038163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-654.dae
+  artifactKey: Guid(98623068ba35c4ad9b2024a93e24c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-654.dae using Guid(98623068ba35c4ad9b2024a93e24c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6373d806b10f63f22b1c67206355cc76') in 0.036352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-640.dae
+  artifactKey: Guid(9c9c905be2ea048e981c71377b389770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-640.dae using Guid(9c9c905be2ea048e981c71377b389770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c07188c998c0caee73e6f4dbdce0b270') in 0.038744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae
+  artifactKey: Guid(9c6b4da267ec944468c498fa60795762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-647.dae using Guid(9c6b4da267ec944468c498fa60795762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bfc2584fa12b6b5bbb86ce45061563d') in 0.050439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-47.dae
+  artifactKey: Guid(c7d9e9e2fa22b4d199a8f3b1d866163f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-47.dae using Guid(c7d9e9e2fa22b4d199a8f3b1d866163f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adf1bb45814de6c8d4294722c345c62d') in 0.037309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-128.dae
+  artifactKey: Guid(e86ab5151b16b4d6694a4106b1efa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-1-128.dae using Guid(e86ab5151b16b4d6694a4106b1efa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a06df0d94b7ea2635b700130e93b2001') in 0.037521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

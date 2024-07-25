@@ -1,0 +1,1164 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.36f1 (95a4219250e5) revision 9806881'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker43
+-projectPath
+C:/Users/emiry/Documents/GitHub/U80
+-logFile
+Logs/AssetImportWorker43.log
+-srvPort
+57102
+Successfully changed project path to: C:/Users/emiry/Documents/GitHub/U80
+C:/Users/emiry/Documents/GitHub/U80
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29768] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 1633431649 [EditorId] 1633431649 [Version] 1048832 [Id] WindowsEditor(7,Hootbu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29768] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 1633431649 [EditorId] 1633431649 [Version] 1048832 [Id] WindowsEditor(7,Hootbu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 8.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.36f1 (95a4219250e5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emiry/Documents/GitHub/U80/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007564 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 580ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (2.0 MB). Loaded Objects now: 4362.
+Memory consumption went from 209.6 MB to 207.5 MB.
+Total: 3.981700 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.256400 ms MarkObjects: 2.871400 ms  DeleteObjects: 0.550600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ProOnlyRangeDrawer.cs: 06dbe8928c84ff230293cb0233df1ecf -> 
+  custom:scripting/monoscript/fileName/UMouseExample.cs: 06ff0cf67586c692ac70428e7b92deb0 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UaMenu.cs: 82495984b996c9bd458f6dae6952899d -> 
+  custom:scripting/monoscript/fileName/TypeSpecBus.cs: bdf891ea43972f99bd350e20e54e2548 -> 
+  custom:scripting/monoscript/fileName/LUAppState.cs: dd879bee3a6e5af3d4125fb39f7658a2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/UStateHandlerExample.cs: e2354a47a3578f345f469a64b7c2ae88 -> 
+  custom:scripting/monoscript/fileName/TypeSpecCar.cs: 4ae669c0479d6ce0b8b48d42f088c449 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VRoadProWindow.cs: 5c5b5f6b5b4591c405e6482a71222208 -> 
+  custom:scripting/monoscript/fileName/URunTraffic.cs: ecda640a73b5f1869b517619e1535e85 -> 
+  custom:scripting/monoscript/fileName/UaPlaySim.cs: 961b6e95b7d27f67e651da849808769f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/UBuildMap.cs: ba6ca95d60e8dfb71d7ea960ed721b0a -> 
+  custom:scripting/monoscript/fileName/UaCamControllerMain.cs: 608d6bfa8bce69f6af7eb0956d66c3f8 -> 
+  custom:scripting/monoscript/fileName/Inspectable.cs: 8ead47a13b172630a7ed4c5efe8f13a0 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UaMapMesh.cs: b66190f0285420f3bc2605dda63a5078 -> 
+  custom:scripting/monoscript/fileName/UaBotHandler.cs: 795d79af38c398cb95c812b8006d49f7 -> 
+  custom:scripting/monoscript/fileName/UaMapMeshMod.cs: c4833c742638c0c376d232484c33ef08 -> 
+  custom:scripting/monoscript/fileName/UaMouse.cs: 990db2078e3ac352b1ad7f578047ae37 -> 
+  custom:scripting/monoscript/fileName/TypeSpecTrailer.cs: c3ba11576f622c42f695f463ca32201e -> 
+  custom:scripting/monoscript/fileName/VRoadEditorWindow.cs: 4521b77ca15c3f0d13a89bae499f7fad -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UPlaySimExamplePrefab.cs: d45adc0f0aa2cbdc230e508f78c98512 -> 
+  custom:scripting/monoscript/fileName/SubMesh.cs: 97ce68bef3a65664402b82bdbf7ec7f2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MeshTools.cs: bc8e9953a6f81d796be6a4867efbeca6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/XyzExtensions.cs: 699a038b2c4b7bdfd27595f05c673221 -> 
+  custom:scripting/monoscript/fileName/ProOnlyDrawer.cs: 140c74f6d98aa6a2f75693f5a2cf72de -> 
+  custom:scripting/monoscript/fileName/URunTrafficAndroid.cs: 13ba57ee74ec160ed8ca441a704aed81 -> 
+  custom:scripting/monoscript/fileName/UPlaySimExample.cs: db2853e1d5d0b0b01a3cea3bd2175faa -> 
+  custom:scripting/monoscript/fileName/SceneSaveMonitor.cs: 002ada5a09e4c3ea15cbb45620dd9ea4 -> 
+  custom:scripting/monoscript/fileName/NamedSubMesh.cs: f9f93af626b46fe3d18408f6771d72b8 -> 
+  custom:scripting/monoscript/fileName/TypeSpecTruck.cs: 4e1a951ed4ac097814c5926b8bcf0bd6 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UExitHandler.cs: 65b422a42c87c5906ca5ab6c9917cd3f -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: b26c4fb1328166ff0500ab0eb78a23c9 -> 
+  custom:scripting/monoscript/fileName/AnimatorPedEventReceiver.cs: 02970d66fc89aa32d11fbf4ed57b2393 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UExternalReporterExample.cs: b47dced26726bc1c6cca3385d51d545e -> 
+  custom:scripting/monoscript/fileName/UaGamePad.cs: c009e1ef2c316b725495851113c4bcc1 -> 
+  custom:scripting/monoscript/fileName/UComment.cs: 2f18d587f279c5c266364d1be9c69d89 -> 
+  custom:scripting/monoscript/fileName/UaStateHandler.cs: 2c899633784028fc2ed2ec0f88d26ad5 -> 
+  custom:scripting/monoscript/fileName/VRoadWindow.cs: 9b3e75131f5e1d1006211fcab64dc0d7 -> 
+  custom:scripting/monoscript/fileName/RoofWrapper.cs: 1e67134df3309cf12ec355d1e5f72a72 -> 
+  custom:scripting/monoscript/fileName/UCamControllerExample.cs: d60969678431ad1e2c929f367987fdf1 -> 
+  custom:scripting/monoscript/fileName/UBotHandlerExample.cs: a6b4b3b74faa6205a93a9c9249a520f5 -> 
+  custom:scripting/monoscript/fileName/UaExternalReporter.cs: 9f8124b70e002cfea54794948b421510 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UMenuExample.cs: a5fe31719e8c44b99bec5f364b1a80dc -> 
+  custom:scripting/monoscript/fileName/ExternalMapBuilder.cs: e8b19924eeafd6b5db8da6982614af93 -> 
+  custom:scripting/monoscript/fileName/UMapMeshExample.cs: aaf935164b4a0db731a09f13538b3a9f -> 
+  custom:scripting/monoscript/fileName/SA.cs: 2a89a45dff2f5d604c0dc515647f54f9 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175628.503429 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence1_Mid_A.fbx
+  artifactKey: Guid(3c9d077ed5fa69448811ddc276e5bc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence1_Mid_A.fbx using Guid(3c9d077ed5fa69448811ddc276e5bc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19993f2702ad2bbbf6471835d75f3fa6') in 0.208235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.267181 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence2_Mid_A.fbx
+  artifactKey: Guid(037bbadbde4575242961811e333ce0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence2_Mid_A.fbx using Guid(037bbadbde4575242961811e333ce0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e80af782f49cfeb175defc9120e1963') in 0.037784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence3_Mid_A.fbx
+  artifactKey: Guid(4b2d5766f1d611846bbd3093cf0709b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Meshes/mBuildings/mStructures/Struct_Fence3_Mid_A.fbx using Guid(4b2d5766f1d611846bbd3093cf0709b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ced0b421383a4ca9b68fbff5da6c926f') in 0.042888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 507.002453 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Texture.mat
+  artifactKey: Guid(273ae5e15026e98428535df9064e10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/Texture.mat using Guid(273ae5e15026e98428535df9064e10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb6ed68f14d67c990bb48f3f3037b946') in 0.024886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.437050 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Surface.mat
+  artifactKey: Guid(1dbaa2878aa46214a969825581029ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/Surface.mat using Guid(1dbaa2878aa46214a969825581029ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b580980d3492f396dfe09d02ff4951b') in 0.008397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.050960 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Stone_02.mat
+  artifactKey: Guid(ddba440287bedcb4dbacf3228d73a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/Stone_02.mat using Guid(ddba440287bedcb4dbacf3228d73a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cfc4322383605201c375cb3a8655386') in 0.012985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005775 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/330/StopHereOnRed.mat
+  artifactKey: Guid(2e98af3e8c654ea42bf3b006775ec6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/330/StopHereOnRed.mat using Guid(2e98af3e8c654ea42bf3b006775ec6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'def86ec2f76ef5ed1b34d532822f7150') in 0.019928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/STurns2.mat
+  artifactKey: Guid(6b1d9fa7293bf0d468d882871c38bfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/STurns2.mat using Guid(6b1d9fa7293bf0d468d882871c38bfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08bebe6a37c21995c8946f6a201bd532') in 0.023180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/617/StopForXWalk.mat
+  artifactKey: Guid(c90691d9b79ed8844b5641c99ad3f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/617/StopForXWalk.mat using Guid(c90691d9b79ed8844b5641c99ad3f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87f3552aca4ab9a5dab220d3236f4a00') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SubjectToFlooding.mat
+  artifactKey: Guid(107868c27139ade478bdd740d29f29bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SubjectToFlooding.mat using Guid(107868c27139ade478bdd740d29f29bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '563ccd52a48905cefae316a57d0fdf60') in 0.017136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016243 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/SpeedLimit50.mat
+  artifactKey: Guid(3fe9f4f78a571164db8922ec1c259292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/SpeedLimit50.mat using Guid(3fe9f4f78a571164db8922ec1c259292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e12f357acef37a28ee8b035b5fa68db') in 0.031462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Stone_01.mat
+  artifactKey: Guid(3f8705ad5b3eac24ebcb9f41853d72c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/Stone_01.mat using Guid(3f8705ad5b3eac24ebcb9f41853d72c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35a6daf5b1a9213606c7b9365f443aad') in 0.010025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/StayInLane.mat
+  artifactKey: Guid(a5943365b9dbe02439d3ab38567f0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/StayInLane.mat using Guid(a5943365b9dbe02439d3ab38567f0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4b39db98894587d3bfadf537df2cea8') in 0.013465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/stairs.mat
+  artifactKey: Guid(196d193cfc1b0d04fb75c4a45e7a654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/stairs.mat using Guid(196d193cfc1b0d04fb75c4a45e7a654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd55ed2649d41b3b827f3c4197cee77e5') in 0.009067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.604719 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SlideArea.mat
+  artifactKey: Guid(52ea1dfacb3871344b9908d03fe18341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SlideArea.mat using Guid(52ea1dfacb3871344b9908d03fe18341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04ab389b5f63e1e579a6c8a519c3fef1') in 0.011456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slippery.mat
+  artifactKey: Guid(580e85685c94186409cd8bb102eb7451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slippery.mat using Guid(580e85685c94186409cd8bb102eb7451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f492c7eabbb9cf3d526a24681d7fde08') in 0.012233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles.mat
+  artifactKey: Guid(e8d8c5343afef6147b1907a4274de88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles.mat using Guid(e8d8c5343afef6147b1907a4274de88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '762257a75beefd594bb3fae836beb4e5') in 0.012924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles2.mat
+  artifactKey: Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles2.mat using Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef8cd6c0c1f4f4b5edf821ff9b2a798d') in 0.013274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Speed45Ahead.mat
+  artifactKey: Guid(cc15d231ca7489b49b62e114e1d04541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Speed45Ahead.mat using Guid(cc15d231ca7489b49b62e114e1d04541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4fbb0086269c4b7953ee84843cfb0025') in 0.014624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.311669 seconds.
+  path: Assets/RoadArchitect/Materials/Signs/SignDiamond.mat
+  artifactKey: Guid(e1ae94a6ad2a5ac4e9d4a3042fe39a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Signs/SignDiamond.mat using Guid(e1ae94a6ad2a5ac4e9d4a3042fe39a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e921f7da885b4fc25cfeefbe1478c694') in 0.009653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RoadArchitect/Materials/Signs/SignStopAllway.mat
+  artifactKey: Guid(e0addf608cbdb0b4e8934e96292b76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Signs/SignStopAllway.mat using Guid(e0addf608cbdb0b4e8934e96292b76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '405ecdd0967ff10d2612b734965ca811') in 0.011874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RoadArchitect/Materials/Signs/SignRightTurnOnly.mat
+  artifactKey: Guid(a4719a4f2588e7642bd8bf89ae0a2736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Signs/SignRightTurnOnly.mat using Guid(a4719a4f2588e7642bd8bf89ae0a2736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48fc5aecb4f77ace79eb55e081a99e8f') in 0.024778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RoadArchitect/Materials/Signs/SignYieldOnGreen.mat
+  artifactKey: Guid(188edfc29244a1646ae21aa143d77f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Signs/SignYieldOnGreen.mat using Guid(188edfc29244a1646ae21aa143d77f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c27d3a6a29c07f6e0f9ddf2e1e6802e') in 0.011936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.304836 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/Seatbelt.mat
+  artifactKey: Guid(524a9dba17c049d45ab8a9ea86e73b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/Seatbelt.mat using Guid(524a9dba17c049d45ab8a9ea86e73b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a42dfd0d1c71bd785d0d8ff58f43b5d') in 0.015625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple city plain/Material & Texture/Material mesh/shop b.mat
+  artifactKey: Guid(d2ece15c27b1b3e42af178de8034e3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Material mesh/shop b.mat using Guid(d2ece15c27b1b3e42af178de8034e3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef4da04155356ccfb72629d0ffc2aeff') in 0.009142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037439 seconds.
+  path: Assets/russian_buildings/materials/rus_build_16.mat
+  artifactKey: Guid(e591f535ccce70247a07f7dbcc1a0f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_16.mat using Guid(e591f535ccce70247a07f7dbcc1a0f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c193e0806c17be44f52dbd07468811d3') in 0.027023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SchoolBusTurn2.mat
+  artifactKey: Guid(fe3b497ce2921164bacf3f0d69318515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SchoolBusTurn2.mat using Guid(fe3b497ce2921164bacf3f0d69318515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a379fc42b145f34c2426e188970f830') in 0.011428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_03.mat
+  artifactKey: Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_lod_03.mat using Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f9b797cd12552749510d75cbbad8f54') in 0.146416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SchoolSpeedLimit20.mat
+  artifactKey: Guid(f97fffd4c225edc4f91da1d6f6178991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SchoolSpeedLimit20.mat using Guid(f97fffd4c225edc4f91da1d6f6178991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7bffece879e2224a7ef130b02754ff2') in 0.008763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_02.mat
+  artifactKey: Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_lod_02.mat using Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '602bf3cf5f4cc4c0139299b04724afee') in 0.012353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/617/SC322.mat
+  artifactKey: Guid(bee6ebbbb905d4b4a819787b245316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/617/SC322.mat using Guid(bee6ebbbb905d4b4a819787b245316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '26d4c6d083de2f31cfbbd8e95e9f39c3') in 0.017181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.359557 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/OneLane-BothWhite.mat
+  artifactKey: Guid(f7a9961c70e20bc4f9b870726e406eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/OneLane-BothWhite.mat using Guid(f7a9961c70e20bc4f9b870726e406eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87cd0c5f383af177569554dd7ad914d7') in 0.013315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.087166 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/617/NY385.mat
+  artifactKey: Guid(5c8d6f7a0862f6a47acd5433a0ac685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/617/NY385.mat using Guid(5c8d6f7a0862f6a47acd5433a0ac685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f61d797faa593f656e60a9c7eb4873d') in 0.022259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/OhioTurnpike.mat
+  artifactKey: Guid(6ddfef4a00db9f344b646fdc02c9f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/OhioTurnpike.mat using Guid(6ddfef4a00db9f344b646fdc02c9f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b4dd8125185a9556cbd1bdbda07a626') in 0.026992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/OKH5A.mat
+  artifactKey: Guid(6fdb17c32261e7c41af6c981a98e15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/OKH5A.mat using Guid(6fdb17c32261e7c41af6c981a98e15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57bd66fe2db5efcef9784d3663b09950') in 0.020260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.075141 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/NoThruStreet.mat
+  artifactKey: Guid(318244f0c91efec438a3aa5e642f9a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/NoThruStreet.mat using Guid(318244f0c91efec438a3aa5e642f9a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9a68d0aaff2f938cf57d8ff12d4b3d2') in 0.028104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/NoTrucksInLeftLane.mat
+  artifactKey: Guid(5c1a98c24a94fe146aa14d8beabca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/NoTrucksInLeftLane.mat using Guid(5c1a98c24a94fe146aa14d8beabca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a68114fb8b66e36490e96fe1f62485b') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/Ny7.mat
+  artifactKey: Guid(3f8d625ea7a61fb479eb91986c1def7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/Ny7.mat using Guid(3f8d625ea7a61fb479eb91986c1def7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c77ef2203f39dcc18577c7aedc228e67') in 0.041621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/NoOutlet.mat
+  artifactKey: Guid(b9e4780e4ada7f4439b69a17dc1b9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/NoOutlet.mat using Guid(b9e4780e4ada7f4439b69a17dc1b9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f6075084f2edd19f336b9d0ee98014f') in 0.014137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/NoMotorVehicles.mat
+  artifactKey: Guid(c2d6e2757bb7f2848bbc78ef8d08e244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/NoMotorVehicles.mat using Guid(c2d6e2757bb7f2848bbc78ef8d08e244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a81eff1713d24c326e137a828841c57') in 0.029519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/NoTurnRight.mat
+  artifactKey: Guid(b438bb8055a08244892cdcb90adccf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/NoTurnRight.mat using Guid(b438bb8055a08244892cdcb90adccf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '941402db72166cdf06043bb14e9ac8b6') in 0.013343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/NoHM.mat
+  artifactKey: Guid(8772f30bc4cb55b499462ddd6965c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/NoHM.mat using Guid(8772f30bc4cb55b499462ddd6965c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93b7beb759c4415a6413c06f3a90ad5b') in 0.013213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.110017 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/Night45.mat
+  artifactKey: Guid(13f7894115b5fc64b9808d120d229805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/Night45.mat using Guid(13f7894115b5fc64b9808d120d229805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebfe9e15218d0b236bebe2d0b822f7ef') in 0.015243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.062968 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/330/MedianAlertRight.mat
+  artifactKey: Guid(7a141c9312cb7044590e1436ec65713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/330/MedianAlertRight.mat using Guid(7a141c9312cb7044590e1436ec65713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15a3da92e84768ce8c769388f498b644') in 0.008563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/MinSpeed40.mat
+  artifactKey: Guid(9ee5cd850e0a5ab4290ee4ab382dcd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/MinSpeed40.mat using Guid(9ee5cd850e0a5ab4290ee4ab382dcd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d18fcb32c47ae7c42f9eecb1851aa41') in 0.013044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.195374 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/light.mat
+  artifactKey: Guid(86ea6604ddacbd94f9294fb6e61cf8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/light.mat using Guid(86ea6604ddacbd94f9294fb6e61cf8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '03bf0a357e86b6e17d09c8a2e2f4cf67') in 0.007050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002802 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Material.mat
+  artifactKey: Guid(367d805dc24291041a8bfd946d8502e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/Material.mat using Guid(367d805dc24291041a8bfd946d8502e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86c91cecbd6c0f3a3ade7e36487a697d') in 0.009492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/MayBeIcyAhead.mat
+  artifactKey: Guid(59e0955699d878349a195a8c38861a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/MayBeIcyAhead.mat using Guid(59e0955699d878349a195a8c38861a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ea1638b2272581a2e7023aec5b0db58') in 0.021972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029988 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/KeepLeft2.mat
+  artifactKey: Guid(f61a64491cc2a5943a702a8614e3d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/KeepLeft2.mat using Guid(f61a64491cc2a5943a702a8614e3d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16a1febd60663cc3332f59e338d026f7') in 0.049681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/leafes.mat
+  artifactKey: Guid(e4e5311754fd22243b45ba86513ef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/leafes.mat using Guid(e4e5311754fd22243b45ba86513ef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f2514c113b03e25a18f52355ad9feca') in 0.028556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.043895 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Intersection4Way.mat
+  artifactKey: Guid(a76b144bd8b51fb4c8dd7206d89b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Intersection4Way.mat using Guid(a76b144bd8b51fb4c8dd7206d89b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c926e54f820ba59bad43bf01f877ee38') in 0.033763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/J2.mat
+  artifactKey: Guid(fe6ba248f97095d49869fcb5611b50d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/J2.mat using Guid(fe6ba248f97095d49869fcb5611b50d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '686f8fc2b9f9376df3ae0607bf05f80a') in 0.011582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterWhiteR-4L.mat
+  artifactKey: Guid(c36a13d2bd6fff84aa8b923e9c716ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterWhiteR-4L.mat using Guid(c36a13d2bd6fff84aa8b923e9c716ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '930fc6416ff15bc744fc051197a54c36') in 0.019698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/K6.mat
+  artifactKey: Guid(ee406a0d2cd53e046b9c7bcfdcc189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/K6.mat using Guid(ee406a0d2cd53e046b9c7bcfdcc189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01d9c1f4f5ec67bccd8c46bc0e6c6a9c') in 0.032599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/K7.mat
+  artifactKey: Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/K7.mat using Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71b6a6ad8c3ec409ef4a25a84b090b95') in 0.030774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterWhiteLWhiteR.mat
+  artifactKey: Guid(dfb39429d5cba6d419879f35af79d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterWhiteLWhiteR.mat using Guid(dfb39429d5cba6d419879f35af79d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b36674853b01dbdff5176c187fe8c81') in 0.012925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterWhiteLYellowR.mat
+  artifactKey: Guid(c2ce59ad5e3fa204d9410de0a264e360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterWhiteLYellowR.mat using Guid(c2ce59ad5e3fa204d9410de0a264e360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e551a6f1b417ec39e34a600a3d026e2c') in 0.012073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterStretch-Left-2L.mat
+  artifactKey: Guid(98ecd6c4017c06a4eaaf20e071748b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterStretch-Left-2L.mat using Guid(98ecd6c4017c06a4eaaf20e071748b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4660d52194f8e3d61383de726a254ed6') in 0.010644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterWhiteLYellowR-4L.mat
+  artifactKey: Guid(3d0a0d723261b7449814391f98f4bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterWhiteLYellowR-4L.mat using Guid(3d0a0d723261b7449814391f98f4bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d5856d11c6b60675080510def8dc953') in 0.007238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/K1.mat
+  artifactKey: Guid(1a0dec1fa084e1b4abd7c6cf33e568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/K1.mat using Guid(1a0dec1fa084e1b4abd7c6cf33e568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0f932deea874ac2cd26ebe8da4d079c') in 0.006302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/k5.mat
+  artifactKey: Guid(e495abf6588a1b944a3620fd1fee2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/k5.mat using Guid(e495abf6588a1b944a3620fd1fee2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '249a10f57f0fab524d26dc71ce89b62e') in 0.007009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.023058 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-None-4L-3.mat
+  artifactKey: Guid(888bf51088f13634492e177dac83fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-None-4L-3.mat using Guid(888bf51088f13634492e177dac83fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53216b26baf5c4fdb4d793cda73294d6') in 0.016370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterLaneDisabledOuter-6L.mat
+  artifactKey: Guid(e6e05f57d49d9df4fb8520be0ae86918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterLaneDisabledOuter-6L.mat using Guid(e6e05f57d49d9df4fb8520be0ae86918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77600ad17df41b4d9306b868feccd1ed') in 0.008383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-None-6L-3-crev.mat
+  artifactKey: Guid(5dff3501eaf39a04f866412e06a7ec81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-None-6L-3-crev.mat using Guid(5dff3501eaf39a04f866412e06a7ec81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '612d36db9ef2782184ca499613d6e0ee') in 0.008647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterLaneDisabledR.mat
+  artifactKey: Guid(1805926c0070b2444bbee2760247e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterLaneDisabledR.mat using Guid(1805926c0070b2444bbee2760247e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d0849445581c672f4f4892b09499a9f') in 0.010827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020009 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-Both-6L.mat
+  artifactKey: Guid(4961541837f17e1479c5ea000f73b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-Both-6L.mat using Guid(4961541837f17e1479c5ea000f73b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '996920071f74afe60dda7aeb1cd00b71') in 0.007496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-None-2L-3-crev.mat
+  artifactKey: Guid(53bd6318785cc2049be7a53d538513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-None-2L-3-crev.mat using Guid(53bd6318785cc2049be7a53d538513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '182d89cbd35c1aca9f635bb7d91e9276') in 0.008256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-Left-4L-3.mat
+  artifactKey: Guid(6fec5deccb611dc43860b5b8a2d13bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-Left-4L-3.mat using Guid(6fec5deccb611dc43860b5b8a2d13bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d553bc959529a09c5d957a63ec3714b') in 0.007356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RoadArchitect/Materials/Markers/InterCenter-Left-2L-3-crev.mat
+  artifactKey: Guid(a6bddd27528282743a8ed44806972487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Markers/InterCenter-Left-2L-3-crev.mat using Guid(a6bddd27528282743a8ed44806972487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b60456bb5ba2b2114cc1ccc867112388') in 0.007149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022547 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/I1.mat
+  artifactKey: Guid(09bb7389d12b7fe4cb01b4d2afb6b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/I1.mat using Guid(09bb7389d12b7fe4cb01b4d2afb6b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b6134aae0ab1bf5de6075fe38f014b8') in 0.007018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Icy.mat
+  artifactKey: Guid(e93bab106b73fe149bee137f529d1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Icy.mat using Guid(e93bab106b73fe149bee137f529d1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4aa3fad4d1420d555580a1bd06c18a9') in 0.012794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.356466 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/HiddenDriveway.mat
+  artifactKey: Guid(01ddd5f4028dd5a46aeed75623aa1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/HiddenDriveway.mat using Guid(01ddd5f4028dd5a46aeed75623aa1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53bd1eea0b1a4e3762da885a1517e152') in 0.012070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/Animals/Horse.mat
+  artifactKey: Guid(548d8dc4d0e158d408e56e331701dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/Animals/Horse.mat using Guid(548d8dc4d0e158d408e56e331701dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6dcfbc0cecdb800783ea76d65bb4171') in 0.012880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030473 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/H2.mat
+  artifactKey: Guid(6f227c8592ad80a41be32efd278da65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/H2.mat using Guid(6f227c8592ad80a41be32efd278da65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0676f6edefb474d297ff63a61aed0dcc') in 0.006022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Square/H53.mat
+  artifactKey: Guid(1200d541e158c5a428069f81b868c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Square/H53.mat using Guid(1200d541e158c5a428069f81b868c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07206f57d1a1219f94e93504c49bb58c') in 0.009362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.040842 seconds.
+  path: Assets/RoadArchitect/Materials/Signs/GreenBlinder.mat
+  artifactKey: Guid(16137e8ad86b0c24296b60856f89cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/Signs/GreenBlinder.mat using Guid(16137e8ad86b0c24296b60856f89cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a05d5c426c18af6855c8b58f6933c42') in 0.013628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.036657 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/Construction/FreshOil.mat
+  artifactKey: Guid(bb7567194e0008c4a925ddf4fab01563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/Construction/FreshOil.mat using Guid(bb7567194e0008c4a925ddf4fab01563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab2bc9cb2f93b4a06651d27d9492da7b') in 0.013088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.910119 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/fire_escape_01.mat
+  artifactKey: Guid(76f9e2fdbb8698d44973515e154a0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Materials/fire_escape_01.mat using Guid(76f9e2fdbb8698d44973515e154a0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3d2ee4e92a3021961a0aa0bfbceb8bf') in 0.013091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/617/FL406A.mat
+  artifactKey: Guid(4e92eb12f227a7a4484fa95c1fdba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/617/FL406A.mat using Guid(4e92eb12f227a7a4484fa95c1fdba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7f264ca809c29261bc56ca772d18a54') in 0.035220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/FireTrucksEntering.mat
+  artifactKey: Guid(9ff30de7094a2d743b4a5f415647396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/FireTrucksEntering.mat using Guid(9ff30de7094a2d743b4a5f415647396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc01cf80061705e21dd49e3cb71f68a5') in 0.036967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004660 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/FallingRock.mat
+  artifactKey: Guid(d126efba39880ed48a66647a04d6fa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/FallingRock.mat using Guid(d126efba39880ed48a66647a04d6fa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7736094a0fa1e6229c5906de709e6460') in 0.038260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.054494 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/EmergencyVehicles3.mat
+  artifactKey: Guid(612937df81877af438f03897253a400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/EmergencyVehicles3.mat using Guid(612937df81877af438f03897253a400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b130080cd954122fe93ebb6a4cda2467') in 0.039821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/F2.mat
+  artifactKey: Guid(125b8e3d7d52f1a4a9341372677b8015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/F2.mat using Guid(125b8e3d7d52f1a4a9341372677b8015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0cf10aba66115a988abdcab5ead8665') in 0.022892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/330/Exit25mph.mat
+  artifactKey: Guid(5f93c64ba1065e848ab4b677d6bfeaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/330/Exit25mph.mat using Guid(5f93c64ba1065e848ab4b677d6bfeaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c80f4e219a318a58c1087b61321a04cd') in 0.038606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/617/ExceptOnShoulder.mat
+  artifactKey: Guid(47e28afebeb100a4d8abb2ddf84c0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/617/ExceptOnShoulder.mat using Guid(47e28afebeb100a4d8abb2ddf84c0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb2182dadd0a19ad79d6ebcb7602549b') in 0.015353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.147269 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/E1.mat
+  artifactKey: Guid(76d6265878226dc409ce872e24203b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/E1.mat using Guid(76d6265878226dc409ce872e24203b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd94ba8adeb5a8ee6537c573a07a1e97') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.042257 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/DividedHighway.mat
+  artifactKey: Guid(c58e1b35675ca0f438e31895ba760d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/DividedHighway.mat using Guid(c58e1b35675ca0f438e31895ba760d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6fc08acb67fdd38fdbdce3a77c85819') in 0.011318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.369396 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/D3.mat
+  artifactKey: Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/D3.mat using Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77f87bc1f4abbe610b944ca7288b2fd4') in 0.008888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/Children/DeafChild2.mat
+  artifactKey: Guid(7727ac4d6008fe148962385e8e3e7926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/Children/DeafChild2.mat using Guid(7727ac4d6008fe148962385e8e3e7926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '220193b8da208a00bc6415bb6396af19') in 0.029199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.316602 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/988/CustomSpeed.mat
+  artifactKey: Guid(6c179b88cf1a925429028484dc3971db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/988/CustomSpeed.mat using Guid(6c179b88cf1a925429028484dc3971db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ebdba5f965b7e6d141020aaa95940ad') in 0.010208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2207.826032 seconds.
+  path: Assets/RoadArchitect/Textures/FedSigns/330/RequestGreenOnBikeDiffuse.png
+  artifactKey: Guid(bfbf9f20fcbe9ff4085a16dcad743df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Textures/FedSigns/330/RequestGreenOnBikeDiffuse.png using Guid(bfbf9f20fcbe9ff4085a16dcad743df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '315b521f274dad0168f4fb2d1cb04d67') in 0.042979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowBikewayNarrowsDiffuse.png
+  artifactKey: Guid(77697c71bb7687943a57d851a04f098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowBikewayNarrowsDiffuse.png using Guid(77697c71bb7687943a57d851a04f098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b61cb710337ebf7afd277d2275699c0') in 0.010629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
