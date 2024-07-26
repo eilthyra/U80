@@ -113,6 +113,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -410,6 +411,20 @@
 "Assets/Forst/CTI Runtime Components/CTI Runtime Components BIRP/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs"
 "Assets/Forst/CTI Runtime Components/CTI Runtime Components BIRP/Scripts/Editor/CTI_DetailsEnum.cs"
 "Assets/Forst/CTI Runtime Components/CTI Runtime Components BIRP/Scripts/Editor/CTI_ShaderGUI.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/BloomEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/NoiseAndGrainEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs"
+"Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
