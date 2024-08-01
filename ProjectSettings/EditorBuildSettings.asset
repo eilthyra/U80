@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/EmreAssets/Scenes/StarterScene.unity
+    guid: e4d2ea21c87652a47a2316118e82e84e
   m_configObjects: {}

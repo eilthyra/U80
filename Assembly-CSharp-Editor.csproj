@@ -60,58 +60,58 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PostProcessingMonitor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-    <Compile Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_ShaderGUI.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-    <Compile Include="Assets\Forst\Conifers [BOTD]\Installer\Editor\ConifersInstaller.cs" />
-    <Compile Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_DetailsEnum.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\CurveEditor.cs" />
-    <Compile Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
-    <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\EditorResources.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Forst\Conifers [BOTD]\Installer\Editor\ConifersInstaller.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_DetailsEnum.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Scripts\Editor\CTI_ShaderGUI.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1014,6 +1014,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1112,6 +1116,10 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
