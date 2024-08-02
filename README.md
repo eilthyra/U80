@@ -167,3 +167,61 @@ konumlardır. Bu sayede karakterimiz ilerleme gösterir ve yeni maceralara da ye
   **Tamamlanan:** UI Ekranının tasarımı için araştırma yapılmıştır.
   
   **Hedef:** Tasarımın nasıl olacağına ilişkin kararlar alınmıştır.
+
+# SPRINT 3
+
+- Sprint içi puan değerlendirmesi 17 olarak belirlenmiştir.
+- **Puan tamamlama mantığı:**  Proje boyunca tamamlanması gereken backlog puanı 44'tür. Üçüncü Sprint için bitirilmesi istenilen puan sayısı 17 olarak belirlenmiştir. Ancak 14 puana ulaşılmıştır. Yapılması planlanan 3 puanlık iş zaman yetersizliğnden yapılamamıştır.
+
+
+ ### Daily Scrum
+
+  Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord üzerinden yapılan toplantılarda takım üyelerimizin yaptığı ilerlemeler belirlenmiştir.
+
+   **Sprint 2 Board Ekran Görüntüsü:**
+![tr](https://github.com/user-attachments/assets/368a9ae0-1d8c-4157-812e-aedf4b58bbfb)
+
+- **Ürün Durumuna İlişkin Görseller:**
+
+![u5](https://github.com/user-attachments/assets/287ea02a-6fe4-489b-9510-b924bacaeb3b)
+![u4](https://github.com/user-attachments/assets/9765e63f-ca88-4b77-b4ae-f9fab8ce012a)
+![u3](https://github.com/user-attachments/assets/24646358-af7b-4e98-b332-1b12c62bb63b)
+![u2](https://github.com/user-attachments/assets/84597862-604f-4d31-aab7-a7e1a22d60f6)
+![u1](https://github.com/user-attachments/assets/97a7c63e-a40d-4ddf-a89b-dd1da9f97f91)
+
+- **Toplantı Görselleri:**
+![d6](https://github.com/user-attachments/assets/6961f35e-ee5b-4804-bb2f-237cf207ac81)
+![d5](https://github.com/user-attachments/assets/b387fe2b-1719-45f8-b627-c27311219c26)
+![d4](https://github.com/user-attachments/assets/6f9c5d01-2a27-49bb-9bc6-609c91e6ef6a)
+![d3](https://github.com/user-attachments/assets/ef642f5b-f39d-49ad-8c9b-9c046d0d6a5e)
+![d2](https://github.com/user-attachments/assets/52feaf41-eb5e-4c4a-b9ee-7e697aec6fbc)
+![d1](https://github.com/user-attachments/assets/a82ccad7-44ac-490f-9954-61461b0d2a31)
+![w7](https://github.com/user-attachments/assets/65e598f4-ebdb-440f-869a-aa5f27476e95)
+![w6](https://github.com/user-attachments/assets/f8bd53af-d240-4af6-8814-873b42ff9bb0)
+![w5](https://github.com/user-attachments/assets/7db572d1-46d5-4e83-b968-fe923ebd219b)
+![w4](https://github.com/user-attachments/assets/379b417d-f3d7-47e7-a972-03d126f0554a)
+![w3](https://github.com/user-attachments/assets/0b822d06-24fa-4b65-9ca1-9337a0c930b1)
+![w2](https://github.com/user-attachments/assets/546f049e-4565-4ff2-8929-d73de312ff3e)
+![w1](https://github.com/user-attachments/assets/a69057b8-1f42-4cb6-a52f-394bc64d70c9)
+
+
+- **Final Videosu:**
+
+- [STREETS Trailer](https://youtu.be/INotaC1bXX8)
+
+**Sprint Review:** 
+
+- Tamamlanması gereken 44 backlog puanından 41 puana ulaşılmıştır.
+- Ekip üyeleri tüm bootcamp sürecindeki çalışmalardan dolayı birbirini tebrik etmiştir.
+- Oyunun son kontrolleri ve hata düzeltmeleri yapılarak build alınmıştır.
+
+- **Sprint Review Katılımcıları:**  Emircan Karabulut, Elif Göktürk, Esin Usta, Emre Okçelen, Emir Yorgun
+
+**Sprint Retrospective:**
+
+- **Projeyi Geliştirme**
+  
+  **Hedef:** Ekip akademiden sonra da oyunu geliştirme ve ticarileştirme için anlaşmıştır.
+- **Problem Çözme Yeteneği:**
+  
+  Ekip, karşılaşılan zorlukları etkili bir şekilde ele alarak çözümler üretti. Hata düzeltmeleri ve son kontroller başarılı bir şekilde gerçekleştirildi.
