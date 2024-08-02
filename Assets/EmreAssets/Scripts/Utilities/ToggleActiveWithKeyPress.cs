@@ -19,5 +19,21 @@ namespace OUA.Utilities
         {
             SceneManager.LoadScene(sceneName);
         }
+
+
+        public void QuitGame()
+        {
+            // Editörde çalışırken oyun durdurulur
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
+        }
+
+
     }
+
+
+
 }

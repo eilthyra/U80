@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638581304440134963
-    m_Hash: 3049807751
+      ticks: 638581511876512869
+    m_Hash: 2814412064
   m_LockFileStatus:
     m_FilePath: C:/Users/emiry/Documents/GitHub/U80/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638581304440190021
-    m_Hash: 2897297288
+      ticks: 638581511876522971
+    m_Hash: 4113472850
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

@@ -84,8 +84,8 @@
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\LevelDesignAssets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingFactory.cs" />
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
     <Compile Include="Assets\LevelDesignAssets\Flooded_Grounds\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
